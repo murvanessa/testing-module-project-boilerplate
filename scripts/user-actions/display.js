@@ -116,7 +116,7 @@ describe('It will check Object and display its content', () => {
 const displayHandler = (message = 'Countries and Capitals:', objectToDisplay = countries) => {
     debugger;
 
-    const alertMessage = displayCountries(countries);
+    const alertMessage = displayCountries(objectToDisplay);
 
     alert(`${message}\n${alertMessage}`);
 };
