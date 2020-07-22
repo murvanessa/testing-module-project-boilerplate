@@ -1,0 +1,12 @@
+main {
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 40%;
+}
+
+main button {
+    width : 100px;
+    margin:5px;
+}

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset='utf8'>
-  <title>your project name</title>
+  <title>Capitals of the World Quiz</title>
 
   <link href="./style.css" rel="stylesheet" />
 
@@ -16,15 +16,29 @@
   <script src='./scripts/script-variables.js'></script>
 
   <!-- load the interaction scripts -->
-  <script src='./scripts/user-actions/_.js'></script>
+  <!-- load the interaction scripts -->
+  <script src="./scripts/user-actions/display.js"></script>
+  <script src="./scripts/user-actions/add.js"></script>
+  <script src="./scripts/user-actions/guess.js"></script>
+  <script src="./scripts/user-actions/search.js"></script>
+  <script src="./scripts/user-actions/remove.js"></script>
+  <script src="./scripts/user-actions/reset.js"></script>
 
 
   <!-- Leave this here!  It renders the review buttons  -->
   <script src='./dependencies/review-buttons/init.js'></script>
 
 </head>
+<main>
 
-<body>
+  <body>
+    <button type="button" onclick="displayHandler()">Display</button>
+    <button type="button" onclick="addCountryHandler()">Add</button>
+    <button type="button" onclick="guessCountryHandler()">Guess</button>
+    <button type="button" onclick="searchCountryHandler()">Search</button>
+    <button type="button" onclick="removeCountryHandler()">Remove</button>
+    <button type="button" onclick="resetCountryHandler()">Reset</button>
+</main>
 
 </body>
 
