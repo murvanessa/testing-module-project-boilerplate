@@ -49,3 +49,27 @@ This user story has been developed through a branch called 'display'.
 - Tested many possibilities and passed
 - Wrote logic for testing
 - Display all countries and capitals via display handler
+
+## 2. Guess
+
+**As a site visitor, I want to play by trying to guess the country's capital**
+
+> assigned to Eltayeb
+
+### Repo
+
+This user story has been developed through a branch called 'guess'.
+
+### HTML
+
+No html markup has been added on this user story.
+
+### CSS
+
+No styling has been added.
+
+### javascript
+
+- Write the Guess function logic.
+- Add Test to verify if the guess function work correctly.
+- Write the guessHandler.
