@@ -49,3 +49,25 @@ This user story has been developed through a branch called 'display'.
 - Tested many possibilities and passed
 - Wrote logic for testing
 - Display all countries and capitals via display handler
+
+## 2. add countries and capitals
+
+**As a site visitor, I want to add countries and capitals .**
+
+> assigned to Murielle
+
+### Repo
+
+This user story has been developed on a branch  'add'.
+
+### HTML
+
+- Nothing to add
+### CSS
+
+- Nothing add
+
+### javascript
+
+- addhandler
+- add function
