@@ -58,7 +58,7 @@ This user story has been developed through a branch called 'display'.
 
 ### Repo
 
-This user story has been developed through a branch called 'style'.
+This user story has been developed through a branch called 'stylee'.
 
 ### HTML
 
