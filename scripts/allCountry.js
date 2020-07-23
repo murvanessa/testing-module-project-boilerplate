@@ -1,4 +1,4 @@
-let allCountries = [
+const allCountries = [
     {
         "country": "Afghanistan",
         "city": "Kabul"
@@ -957,3 +957,6 @@ let allCountries = [
         "city": "Harare"
     }
 ];
+
+Object.freeze(allCountries);
+
