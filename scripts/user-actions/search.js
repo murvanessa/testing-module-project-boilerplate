@@ -48,9 +48,9 @@ describe('It will search the Object to check if the country is in the list', () 
   });
 });
 
-const searchCountryHandler = () => {
+const searchCountryHandler = (message = 'The result is:', returnResult) => {
   debugger;
   const query = prompt("Enter a country name to check if it's in the list");
-  let message = searchCountry(query);
-  displayHandler(message);
+  returnResult = searchCountry(query);
+  displayHandler(message, returnResult);
 };
