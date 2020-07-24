@@ -16,7 +16,7 @@
     > Assign to Nadia  
     > Branch :remove  
 6. I want to reset the database.  
-    > Assign to  
+    > Assign to Mamé
     > Branch : reset  
 7. I want to see a website with all the necessary buttons and with a stand out style.
     > Assign to Mamé  

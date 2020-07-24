@@ -76,7 +76,7 @@ No styling has been added.
 
 ## 3. Style Web Page
 
-**I want to see a website with all the necessary buttons and with a stand out style.**
+**As a site visitor, I want to see a website with all the necessary buttons and with a stand out style.**
 
 > assigned to Mamé
 
@@ -98,3 +98,26 @@ This user story has been developed through a branch called 'stylee'.
 ### javascript
 
 - Change buttons border colors randomly
+
+## 4. Reset Database
+
+**As a site visitor, I want to reset the database.**
+
+> assigned to Mamé
+
+### Repo
+
+This user story has been developed through a branch called 'reset'.
+
+### HTML
+
+- Nothing has changed
+
+### CSS
+
+- Nothing has changed  
+
+### javascript
+
+- Called reset handler function
+- Reset shared global variable
