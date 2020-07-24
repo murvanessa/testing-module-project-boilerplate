@@ -73,3 +73,28 @@ No styling has been added.
 - Write the Guess function logic.
 - Add Test to verify if the guess function work correctly.
 - Write the guessHandler.
+
+## 3. Style Web Page
+
+**I want to see a website with all the necessary buttons and with a stand out style.**
+
+> assigned to Mamé
+
+### Repo
+
+This user story has been developed through a branch called 'stylee'.
+
+### HTML
+
+- Added Button tags
+- Add Header and Section tag
+- Added div tags and place bootstrap classes
+
+### CSS
+
+- Styled button and div tags  
+- Added CSS properties in style file  
+
+### javascript
+
+- Change buttons border colors randomly

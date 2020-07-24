@@ -2,10 +2,12 @@
 <html lang='en'>
 
 <head>
-  <meta charset='utf8'>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>Capitals of the World Quiz</title>
 
-  <link href="./style.css" rel="stylesheet" />
+
 
   <!-- load the testing dependencies -->
   <script src='./dependencies/chai.js'></script>
@@ -28,19 +30,65 @@
 
   <!-- Leave this here!  It renders the review buttons  -->
   <script src='./dependencies/review-buttons/init.js'></script>
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="./style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
 </head>
-<main>
+<header>
+  <h1 class="text-center mt-3">Capitals of the World Quiz</h1>
+</header>
+<section class="mt-2">
+  <h2 class="no-display">no display</h2>
+  <div id="main-container-0"> </div>
 
-  <body>
-    <button type="button" onclick="displayHandler()">Display</button>
-    <button type="button" onclick="addCountryHandler()">Add</button>
-    <button type="button" onclick="guessCountryHandler()">Guess</button>
-    <button type="button" onclick="searchCountryHandler()">Search</button>
-    <button type="button" onclick="removeCountryHandler()">Remove</button>
-    <button type="button" onclick="resetCountryHandler()">Reset</button>
-</main>
+  <div id="main-container">
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn mt-2 rounded-circle d-flex justify-content-center align-items-center styleBtn"
+        onclick="displayHandler()">
+        <span>Display</span>
+      </button>
+    </div>
+    <!--Add and Search Buttons-->
+    <div class="d-flex justify-content-between" id="main-add-search">
+      <button type="button" class="btn ml-2 rounded-circle d-flex justify-content-center align-items-center styleBtn"
+        onclick="addCountryHandler()">
+        <span>Add</span>
+      </button>
+      <button type="button" class="mr-2 rounded-circle d-flex justify-content-center align-items-center styleBtn"
+        onclick="searchCountryHandler()">
+        <span>Search</span>
+      </button>
+    </div>
+    <!--Guess Button-->
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn ml-2  d-flex justify-content-center align-items-center" id="guess"
+        onclick="guessCountryHandler()">
+        <span>Guess it</span>
+      </button>
+    </div>
+    <!--Remove and Reset Buttons-->
+    <div class="d-flex justify-content-between" id="main-remove-reset">
+      <button type="button" class="btn ml-2 rounded-circle d-flex justify-content-center align-items-center styleBtn"
+        onclick="removeCountryHandler()">
+        <span>Remove</span>
+      </button>
+      <button type="button" class="mr-2 rounded-circle d-flex justify-content-center align-items-center styleBtn"
+        onclick="resetCountryHandler()">
+        <span>Reset</span>
+      </button>
+    </div>
 
+  </div>
+
+
+
+</section>
+
+<script src="./scripts/script.js"></script>
 </body>
 
 </html>

@@ -20,4 +20,4 @@
     > Branch : reset  
 7. I want to see a website with all the necessary buttons and with a stand out style.
     > Assign to Mamé  
-    > Branch : style   
+    > Branch : stylee   
