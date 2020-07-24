@@ -3,8 +3,20 @@
 [![Code Health](https://landscape.io/github/murvanessa/testing-module-project-boilerplate/master/landscape.svg?style=flat)](https://landscape.io/github/murvanessa/testing-module-project-boilerplate/master)
 
 ## Table of Contents
+- [About](#about)
 - [License](#license)
 - [Contact](#contact)
+
+## About
+This project is about guessing a capital of country that are inside our database. To fulfill this project we have different task:
+
+    - adding a country and his capital
+    - delete a country delete also the capital
+    - display all the countries and capital
+    - search for a country 
+    - reset the game
+    - guess the capital with a random country 
+
 
 ## License
 
