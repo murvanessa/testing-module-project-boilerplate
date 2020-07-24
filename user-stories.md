@@ -13,7 +13,7 @@
     > Assign to Miroslav  
     > Branch: search  
 5. I want to remove some countries info from the database.
-    > Assign to Nadia  
+    > Assign to Mamé  
     > Branch :remove  
 6. I want to reset the database.  
     > Assign to Mamé
