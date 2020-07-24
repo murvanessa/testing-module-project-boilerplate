@@ -961,4 +961,3 @@ const allCountries = [
 Object.freeze(allCountries);
 
 
-let check = Object.entites()

@@ -17,7 +17,6 @@ const generateColor = (first, second, third) => {
     return color;
 }
 
-console.log(generateColor(randomNumber(), randomNumber(), randomNumber()));
 
 // set interval 
 let setTime = setInterval(timer, 500);
@@ -35,8 +34,4 @@ function timer() {
     }
 }
 
-// call interval when web page  loaded
 
-window.onload = function () {
-    setTime();
-}
