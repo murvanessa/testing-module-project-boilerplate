@@ -13,11 +13,11 @@
     > Assign to Miroslav  
     > Branch: search  
 5. I want to remove some countries info from the database.
-    > Assign to Nadia  
+    > Assign to Mamé  
     > Branch :remove  
 6. I want to reset the database.  
-    > Assign to  
+    > Assign to Mamé
     > Branch : reset  
 7. I want to see a website with all the necessary buttons and with a stand out style.
     > Assign to Mamé  
-    > Branch : style   
+    > Branch : stylee   
