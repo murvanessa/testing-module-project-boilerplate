@@ -97,3 +97,26 @@ This user story has been developed through a branch called 'reset'.
 
 - Called reset handler function
 - Reset shared global variable
+
+## 4. Reset Database
+
+**As a site visitor, I want to remove some countries info from the database.**
+
+> assigned to Mamé
+
+### Repo
+
+This user story has been developed through a branch called 'remove'.
+
+### HTML
+
+- Nothing has changed
+
+### CSS
+
+- Nothing has changed  
+
+### javascript
+
+- Called remove handler function
+- wrote logic to remove countries from database.
