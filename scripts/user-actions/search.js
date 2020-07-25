@@ -1,6 +1,6 @@
-const searchCountryHandler = (query) => {
+const searchCountryHandler = () => {
   debugger;
-  query = prompt("Enter a country name to check if it's in the list");
+  const query = prompt("Enter a country name to check if it's in the list");
   if (query === null || query === '') {
     return alert('You did not write any country!');
   }
