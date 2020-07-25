@@ -52,5 +52,8 @@ const searchCountryHandler = (message = 'The result is:', returnResult) => {
   debugger;
   const query = prompt("Enter a country name to check if it's in the list");
   returnResult = searchCountry(query);
+  if (typeof returnResult === 'string') {
+    return alert(returnResult);
+  }
   displayHandler(message, returnResult);
 };
