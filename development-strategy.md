@@ -12,7 +12,7 @@ A basic web page aim to learn JavaScript, testing and developed collaboratively 
 
 ## 0. Set-Up
 
-__A User can see my initial repository and live demo__  
+**A User can see my initial repository and live demo**
 
 ### Repository
 
@@ -23,7 +23,7 @@ __A User can see my initial repository and live demo__
 - Start the development strategy
 - Prepare a project board
 - Push the changes to GitHub
-- Turn on GitHub Page  
+- Turn on GitHub Page
 
 ## 1. Display Countries and Capitals
 
@@ -92,8 +92,8 @@ This user story has been developed through a branch called 'stylee'.
 
 ### CSS
 
-- Styled button and div tags  
-- Added CSS properties in style file  
+- Styled button and div tags
+- Added CSS properties in style file
 
 ### javascript
 
@@ -115,7 +115,7 @@ This user story has been developed through a branch called 'reset'.
 
 ### CSS
 
-- Nothing has changed  
+- Nothing has changed
 
 ### javascript
 
@@ -138,9 +138,32 @@ This user story has been developed through a branch called 'remove'.
 
 ### CSS
 
-- Nothing has changed  
+- Nothing has changed
 
 ### javascript
 
 - Called remove handler function
 - wrote logic to remove countries from database.
+
+## 6. Search countries
+
+**As a site visitor, I want to search for countries by their name or some matching characters.**
+
+> assigned to Miroslav
+
+### Repo
+
+This user story has been developed through a branch called 'search'.
+
+### HTML
+
+- Nothing has changed
+
+### CSS
+
+- Nothing has changed
+
+### JavaScript
+
+- Write _searchCountryHandler_ function with logic to handle user input
+- Connect the function with _displayHandler_ to show the end result to the user
